@@ -26,11 +26,10 @@ myFunction();
 
 function summation(num){
   var counter = 0;
-  function add(){
-    counter + 1;
+  for(let i = 1; i <=  num; i++){
+    counter += i;
   }
-  add(num);
   return counter;
 }
 
-summation(4);
+console.log(summation(4));
