@@ -29,6 +29,8 @@ function summation(num){
   function add(){
     counter + 1;
   }
-  add();
+  add(num);
   return counter;
 }
+
+summation(4);
